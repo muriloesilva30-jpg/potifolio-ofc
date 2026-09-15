@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(129, 129, 158);
+}
+header{
+    text-align: center;
+    background-color: rgba(9, 99, 173, 0.863);
+    border-radius: 50px;
+    border-style: solid;
+    border-color: black;
+}
+main{
+    background-color: aliceblue;
+    text-align: center;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: black;
+}
+p{
+    border-radius: 50px;
+    border-style: solid;
+    border-color: black;
+}
