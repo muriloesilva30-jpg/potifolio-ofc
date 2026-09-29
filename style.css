@@ -9,17 +9,38 @@ header{
     border-color: black;
 }
 main{
-    background-color: aliceblue;
+    background-color: rgba(37, 99, 153, 0.613);
     text-align: center;
     border-radius: 50px;
     border-style: solid;
     border-color: black;
 }
-p{
-    border-radius: 50px;
+h1{
+    background-color: rgba(35, 75, 209, 0.827);
+    border-radius: 15px;
+}
+a p{
+    font-weight: bold;
+    border-radius: 5px;
+    width: 30%;
     border-style: solid;
     border-color: black;
+    padding: 10px;
+    text-align: center;
+    margin: 15px auto;
+    transition: 0.5s all;
+}
+a p:hover{
+    background-color: rgba(29, 109, 208, 0.73);
+    transform: scale(1.2);
+    transform: rotate(5deg);
+    border-style: solid;
+}
+a p:active{
+    border-color: rgb(red green blue / alpha);
+    border-style: solid;
 }
 button{
-    text-align: center;
+    background-color: rgba(18, 56, 112, 0.536);
+
 }
