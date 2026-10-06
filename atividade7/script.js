@@ -8,7 +8,6 @@ function aleatorio() {
     let mostrar = document.getElementById('resultado');
     mostrar.innerHTML = `<p>Acabei de pensar no número ${num}</p>`;
     if(num == 67){
-        alert("Parabéns! você tirou o número " + num + " você tem muita Aura");
+        alert("Parabéns! você tirou o número " + num + "!! você tem muita Aura!!");
     }
 }
-
