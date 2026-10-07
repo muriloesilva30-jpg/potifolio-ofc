@@ -13,7 +13,7 @@ function sorte(){
         let mostrar = document.getElementById('resultado');
         mostrar.innerHTML = `<p>Sorte: ${cont_sorte}</p>
                             <p>Azar: ${cont_azar}</p>
-                            <img src="sorte.jpeg"></img>`;
+                            <img src="sorte.png"></img>`;
     }else {
         cont_azar++;
         let mostrar = document.getElementById('resultado');
