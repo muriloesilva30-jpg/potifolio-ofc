@@ -3,6 +3,8 @@ function contar(){
 
     let cont = 1
     while(cont <= 10) {
-                                                                    
+            saida.innerHTML += `<p> &#x1F449 <mark>${cont}</p>`;
+            cont++;                                                         
     }
+    saida.innerHTML += `<p>&#x1FC1</p>`
 }
